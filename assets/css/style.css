@@ -1,11 +1,8 @@
+/* basic elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
 }
 
 header {
@@ -20,8 +17,8 @@ h1 {
     font-size: 48px;
 }
 
-h1 .seo {
-    color: #d9dcd6;
+h2 {
+    font-size: 20px;
 }
 
 h3 {
@@ -29,13 +26,6 @@ h3 {
     text-align: center;
 }
 
-nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
 
 ul {
     list-style-type: none;
@@ -55,24 +45,18 @@ p {
     font-size: 16px;
 }
 
-.stock-marketing-background-image {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+body {
+    background-color: #d9dcd6;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
-    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
+
 
 section {
     width: 75%;
@@ -91,37 +75,39 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* specific divs */
+
+/* Header */
+h1 .seo {
+    color: #d9dcd6;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* Background */
+.stock-marketing-background-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* Section */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .search-engine-optimization {
@@ -178,13 +164,36 @@ aside {
     font-size: 36px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+/* Aside */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-h2 {
-    font-size: 20px;
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
