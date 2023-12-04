@@ -6,7 +6,7 @@ This project is based on HTML coded by someone else for Horiseon's landing page.
 
 ## Installation
 
-No installation necessary, simply use the following link to access the website landing page.
+No installation necessary, simply use the following link to access the website landing page: https://sidm97.github.io/Module-1-Challenge/
 
 ## Usage
 
